@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" name="CAT" packages="com.epam.ta.reportportal.log4j.appender">
+    <properties>
+        <property name="pattern">%date [%thread] [%level] [%logger{1.}] - %msg%n%throwable</property>
+    </properties>
+    <Appenders>
+        <RollingFile name="RollingFile"
+                     filePattern="logs/testrun_%d{yyyyMMdd_HHmmss}.log" immediateFlush="true">
+            <PatternLayout pattern="${pattern}"/>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+        <ReportPortalLog4j2Appender name="ReportPortalAppender">
+            <PatternLayout pattern="${pattern}"/>
+        </ReportPortalLog4j2Appender>
+    </Appenders>
+    <Loggers>
+        <Logger name="rp" level="WARN"/>
+        <Logger name="com.epam.reportportal" level="WARN"/>
+        <Root level="INFO">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="ReportPortalAppender"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
