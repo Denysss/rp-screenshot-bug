@@ -41,7 +41,7 @@
         <com.oracle.ojdbc.version>12.1.0.1</com.oracle.ojdbc.version>
         <zookeeper.version>3.5.5</zookeeper.version>
         <selenide.version>5.2.4</selenide.version>
-        <guava.version>28.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <elasticsearch.version>6.7.1</elasticsearch.version>
         <simpleslackapi.version>1.2.0</simpleslackapi.version>
         <jackson-databind.version>2.11.0</jackson-databind.version>
