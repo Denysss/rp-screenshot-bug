@@ -19,7 +19,7 @@
         <asserj.version>3.12.1</asserj.version>
         <supercsv.version>2.4.0</supercsv.version>
         <hakaricp.version>3.3.1</hakaricp.version>
-        <mybatis.version>3.5.1</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <commons-io.version>2.6</commons-io.version>
         <allure.version>2.12.1</allure.version>
         <allure.plugin.version>2.10.0</allure.plugin.version>
