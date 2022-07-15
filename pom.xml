@@ -27,7 +27,7 @@
         <okhttp3.version>4.2.2</okhttp3.version>
         <aspectj.version>1.9.2</aspectj.version>
         <surefire.plugin.version>3.0.0-M4</surefire.plugin.version>
-        <aws-java-sdk-s3.version>1.11.520</aws-java-sdk-s3.version>
+        <aws-java-sdk-s3.version>1.12.261</aws-java-sdk-s3.version>
         <awaitility.version>3.1.6</awaitility.version>
         <jsch.version>0.1.55</jsch.version>
         <jcabi-ssh.version>1.6.1</jcabi-ssh.version>
