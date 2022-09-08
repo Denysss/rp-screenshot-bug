@@ -37,7 +37,7 @@
         <zip4j.version>1.3.3</zip4j.version>
         <ehcache.version>3.7.1</ehcache.version>
         <mysql.version>8.0.17</mysql.version>
-        <postgresql.version>42.2.6</postgresql.version>
+        <postgresql.version>42.4.1</postgresql.version>
         <com.oracle.ojdbc.version>12.1.0.1</com.oracle.ojdbc.version>
         <zookeeper.version>3.5.5</zookeeper.version>
         <selenide.version>5.2.4</selenide.version>
